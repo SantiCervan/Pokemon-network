@@ -1,0 +1,70 @@
+.h1containmer {
+    color: white;
+    position: absolute;
+    height: 80px;
+    left: 50px;
+    padding: 20px;
+    top: 0;
+    width: 400px;
+    z-index: 10;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.logo {
+    height: 60px;
+    width: 60px;
+    margin-right: 20px;
+}
+
+.filterContainer {
+    position: absolute;
+    color: white;
+    left: 1380px;
+    padding: 20px;
+    top: 300px;
+    width: 300px;
+    z-index: 10;
+    background-color: #1c1c5277;
+    backdrop-filter: blur(5px);
+    border-radius: 10px;
+}
+
+.types {
+    height: 40px;
+    width: 40px;
+    margin-bottom: -15px;
+}
+
+.types:hover {
+    height: 50px;
+    width: 50px;
+}
+
+.typesButton {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 80px;
+    width: 50px;
+    margin-left: 10px;
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+.buttonsContainer {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.title {
+    padding-left: 12px;
+    padding-bottom: 10px;
+}
+
+p {
+    text-transform: capitalize;
+}
