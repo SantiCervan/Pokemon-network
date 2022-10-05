@@ -1,8 +1,9 @@
 import { useRef, useCallback, useEffect, useState } from 'react';
 import { pokemone, linkPokemons } from './pokemonFunctions'
 import ForceGraph3D from 'react-force-graph-3d';
-import Filter from './Filter'
+import github from './img/github.png'
 import logo from './img/logo2.png'
+import Filter from './Filter'
 import './App.css'
 
 export default function App() {
@@ -104,6 +105,12 @@ export default function App() {
         }}
         nodeThreeObjectExtend={true}
       />
+      <div >
+        <a href="https://github.com/SantiCervan" className='github' target='_blank'>
+          <img className='githubImage' src={github} />
+          <h4>SantiCervan github</h4>
+        </a>
+      </div>
       <Filter />
     </div>
   )

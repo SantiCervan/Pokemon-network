@@ -2,7 +2,7 @@
     color: white;
     position: absolute;
     height: 80px;
-    left: 50px;
+    left: 30px;
     padding: 20px;
     top: 0;
     width: 400px;
@@ -67,4 +67,22 @@
 
 p {
     text-transform: capitalize;
+}
+
+.github {
+    position: absolute;
+    color: white;
+    left: 50px;
+    padding: 20px;
+    top: 740px;
+    z-index: 10;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    text-decoration: none;
+}
+
+.githubImage {
+    width: 50px;
+    margin-right: 10px;
 }
